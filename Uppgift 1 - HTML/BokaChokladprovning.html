@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="sv">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Café Choco-Latte - Boka chokladprovning</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" media="screen" href="./stil/style.css">
+   </head>
+   <body>
+      <!-- header för att innehålla introduktions information för sidan -->
+      <header>
+         <h1>Café Choco-Latte</h1>
+            <h2>Fantastiskt kaffe &amp; läckra bakverk</h2>
+            <p>Vi vill vara en kaffeoas där du känner de intensiva dofterna från kaffet när du kliver in genom dörren.
+                Vi är en plats där du för varje kopp kaffe och bakverk ska uppleva en sann njutning och smaksensation.
+                Vi vill ge dig hög kvalitet utan att tumma på rättvisan gentemot kaffe- och kakoodlarna.</p>
+      </header>
+      <!-- nav för att skapa en navigation för sidan -->
+      <nav>
+         <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li>
+               <a href="Chokladprovning.html">Chokladprovning</a>
+               <ul>
+                  <li><a href="BokaChokladprovning.html">Boka chokladprovning</a></li>
+               </ul>
+            </li>
+            <li><a href="Kakao.html">Om kakaoträdet</a></li>
+         </ul>
+      </nav>
+      <main>
+        <!-- main för att innehålla huvudinnehållet på sidan -->
+        <div class="form-container">
+            <fieldset id="datum">
+               <legend>Välj datum</legend>
+               <input type="radio" name="datum1">30 april</input>
+               <br>
+               <input type="radio" name="datum2">2 maj</input>
+               <br>
+               <input type="radio" name="datum3">7 maj</input>
+               <br>
+               <input type="radio" name="datum4">9 maj</input>
+               <br>
+               <input type="radio" name="datum5">14 maj</input>
+               <br>
+               <input type="radio" name="datum6">16 maj</input>
+             </fieldset>
+         </fieldset>
+         <fieldset>
+            <legend>Antal personer</legend>
+            <label for="antal">Antal personer:</label>
+            <select name="antal" id="antal">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+           </select>
+         </fieldset>
+      <fieldset>
+           <legend>Kontaktinformation</legend>
+           <label for="namn">Namn:</label>
+           
+           <input type="text" id="namn" name="namn">
+           <br>
+           <label for="email">Email:</label>
+           
+           <input type="email" id="email" name="email">
+           <br>
+           <label for="mobil">Mobil:</label>
+           
+           <input type="tel" id="mobil" name="mobil">
+           <br>
+           <label for="meddelande">Meddelande:</label>
+           
+           <textarea id="meddelande" name="meddelande">
+           </textarea>
+           <br>
+         </fieldset>
+           <input type="submit" value="Boka">
+       </div>
+     </main>
+   </body>
+</html>
